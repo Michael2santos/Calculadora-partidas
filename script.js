@@ -45,9 +45,9 @@ function rankJogador(saldo){
     return nivel
 }
 
-//pontos do jogador recebe calculo da função
+//pontosJogador recebe calculo da função calcularSaldoJogador
 let pontosJogador = calcularSaldoJogador(85, 23)
-//nivel recebe resultado da função rankJogador tendo como parametro resultado da função calcularSaldoJogador
+//nivelJogador recebe resultado da função rankJogador tendo como parametro resultado da função calcularSaldoJogador
 let nivelJogador = rankJogador(pontosJogador)
 
 console.log(`O Jogador tem saldo de ${pontosJogador} pontos e está no ${nivelJogador}`)
