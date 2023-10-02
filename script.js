@@ -1,19 +1,3 @@
-/*Calculadora de partidas rankeadas 
-1-Criar função recebendo como parametro quantidade de vitorias e derrotas de um jogador
-2-Depois retorne o resultado para uma variavel
-3-O saldo de rankeadas deve ser feito atraves do calculo vitorias - derrotas
-
-4-niveis
-Se vitórias for menor do que 10 = Ferro
-Se vitórias for entre 11 e 20 = Bronze
-Se vitórias for entre 21 e 50 = Prata
-Se vitórias for entre 51 e 80 = Ouro
-Se vitórias for entre 81 e 90 = Diamante
-Se vitórias for entre 91 e 100= Lendário
-Se vitórias for maior ou igual a 101 = Imortal
-
-5-Saida do programa "O Jogador tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
-*/
 
 //função calcular saldo
 function calcularSaldoJogador(vitorias, derrotas){
